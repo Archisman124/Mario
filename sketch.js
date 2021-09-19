@@ -73,6 +73,7 @@ function draw(){
   else if(gameState==="End"){
     gameOver.visible=true
     restart.visible=true    
+    mario.velocityY=0
 brickGroup.setVelocityXEach(0)
 obstacleGroup.setVelocityXEach(0)
 ground.velocityX=0
